@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* custom scroll bar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--text-color);
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 5rem;
+}
+/* custom scroll bar */
+:root {
+  --main-color:#ff2c1f;
+  --text-color:#020307;
+  --bg-color:#fff;
+}
+section {
+  padding: 4.5rem 1.5rem;
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+header.shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+/* Navbar */
+
+
+/* Home */
+
+/* Home */
+
+/* Movies */
+.box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+.box-img img:hover {
+  transform:translateY(-10px);
+}
+.box h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--main-color);
+}
+.box span {
+  font-size: 13px;
+}
+/* Movies */
+
+/* Coming Soon */
+
+/* Coming Soon */
+
+/* news */
+.news form {
+  background-color: var(--bg-color);
+}
+.news form input[type="email"] {
+  border: 0;
+  outline: 0;
+  width: 300px;
+}
+.news input::placeholder {
+  color: var(--text-color);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+/* news */
+/* footer */
+
+/* footer */
+/* copy */
+
+/* copy */
